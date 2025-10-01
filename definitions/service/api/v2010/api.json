@@ -8922,6 +8922,12 @@
           "required": false
         },
         {
+          "name": "PublicApplicationConnectEnabled",
+          "type": "bool",
+          "value": "PublicApplicationConnectEnabled",
+          "required": false
+        },
+        {
           "name": "SmsURL",
           "type": "string",
           "value": "SmsUrl",
@@ -9060,6 +9066,12 @@
           "name": "VoiceCallerIDLookup",
           "type": "bool",
           "value": "voice_caller_id_lookup",
+          "required": true
+        },
+        {
+          "name": "PublicApplicationConnectEnabled",
+          "type": "bool",
+          "value": "public_application_connect_enabled",
           "required": true
         },
         {

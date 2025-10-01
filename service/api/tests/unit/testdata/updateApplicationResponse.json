@@ -1,6 +1,7 @@
 {
   "sms_status_callback": null,
   "voice_caller_id_lookup": false,
+  "public_application_connect_enabled": true,
   "voice_fallback_url": null,
   "date_updated": "Sat, 27 Jun 2020 23:10:00 +0000",
   "sms_fallback_method": "POST",

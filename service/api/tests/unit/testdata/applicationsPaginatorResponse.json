@@ -11,6 +11,7 @@
     {
       "sms_status_callback": null,
       "voice_caller_id_lookup": false,
+      "public_application_connect_enabled": false,
       "voice_fallback_url": null,
       "date_updated": null,
       "sms_fallback_method": "POST",
@@ -33,6 +34,7 @@
     {
       "sms_status_callback": null,
       "voice_caller_id_lookup": false,
+      "public_application_connect_enabled": false,
       "voice_fallback_url": null,
       "date_updated": null,
       "sms_fallback_method": "POST",

@@ -20,25 +20,26 @@ type ApplicationsPageOptions struct {
 }
 
 type PageApplicationResponse struct {
-	APIVersion            string             `json:"api_version"`
-	AccountSid            string             `json:"account_sid"`
-	DateCreated           utils.RFC2822Time  `json:"date_created"`
-	DateUpdated           *utils.RFC2822Time `json:"date_updated,omitempty"`
-	FriendlyName          *string            `json:"friendly_name,omitempty"`
-	MessageStatusCallback *string            `json:"message_status_callback,omitempty"`
-	Sid                   string             `json:"sid"`
-	SmsFallbackMethod     string             `json:"sms_fallback_method"`
-	SmsFallbackURL        *string            `json:"sms_fallback_url,omitempty"`
-	SmsMethod             string             `json:"sms_method"`
-	SmsStatusCallback     *string            `json:"sms_status_callback,omitempty"`
-	SmsURL                *string            `json:"sms_url,omitempty"`
-	StatusCallback        *string            `json:"status_callback,omitempty"`
-	StatusCallbackMethod  string             `json:"status_callback_method"`
-	VoiceCallerIDLookup   bool               `json:"voice_caller_id_lookup"`
-	VoiceFallbackMethod   string             `json:"voice_fallback_method"`
-	VoiceFallbackURL      *string            `json:"voice_fallback_url,omitempty"`
-	VoiceMethod           string             `json:"voice_method"`
-	VoiceURL              *string            `json:"voice_url,omitempty"`
+	APIVersion                      string             `json:"api_version"`
+	AccountSid                      string             `json:"account_sid"`
+	DateCreated                     utils.RFC2822Time  `json:"date_created"`
+	DateUpdated                     *utils.RFC2822Time `json:"date_updated,omitempty"`
+	FriendlyName                    *string            `json:"friendly_name,omitempty"`
+	MessageStatusCallback           *string            `json:"message_status_callback,omitempty"`
+	PublicApplicationConnectEnabled bool               `json:"public_application_connect_enabled"`
+	Sid                             string             `json:"sid"`
+	SmsFallbackMethod               string             `json:"sms_fallback_method"`
+	SmsFallbackURL                  *string            `json:"sms_fallback_url,omitempty"`
+	SmsMethod                       string             `json:"sms_method"`
+	SmsStatusCallback               *string            `json:"sms_status_callback,omitempty"`
+	SmsURL                          *string            `json:"sms_url,omitempty"`
+	StatusCallback                  *string            `json:"status_callback,omitempty"`
+	StatusCallbackMethod            string             `json:"status_callback_method"`
+	VoiceCallerIDLookup             bool               `json:"voice_caller_id_lookup"`
+	VoiceFallbackMethod             string             `json:"voice_fallback_method"`
+	VoiceFallbackURL                *string            `json:"voice_fallback_url,omitempty"`
+	VoiceMethod                     string             `json:"voice_method"`
+	VoiceURL                        *string            `json:"voice_url,omitempty"`
 }
 
 // ApplicationsPageResponse defines the response fields for the applications page
